@@ -1,0 +1,39 @@
+using System;
+namespace Consoleapp1
+
+ 
+
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Escreva a primeira nota");
+            int prim = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Escreva a segunda nota");
+            int seg = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Escreva a terceira nota");
+            int terc = Convert.ToInt32(Console.ReadLine());
+            int resu = ((prim * 2) + (seg * 3) + (terc * 5)) /10 ;
+            Console.WriteLine("a media é 0222--" + resu);
+            Console.ReadKey();
+
+ 
+
+ 
+
+ 
+
+        }
+
+ 
+
+ 
+
+    }
+
+ 
+
+ 
+
+}
